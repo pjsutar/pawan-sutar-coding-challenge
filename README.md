@@ -9,21 +9,20 @@ Contains C++ code to solve ORNL coding challenge questions.
 ## File Structure
 - The project structure is kept simple to accomplish the task within given time frame.
 
-pawan-sutar-coding-challenge            # Project root
-|
-├── CMakeLists.txt                      # Build system configuration
-|
-├── utility.h                           # Function declarations
-|  
-├── utility.cpp                         # Function definitions
-|  
-├── utility_test.cpp                    # Unit tests
+      pawan-sutar-coding-challenge            # Project root
+      |
+      ├── CMakeLists.txt                      # Build system configuration
+      |
+      ├── utility.h                           # Function declarations
+      |  
+      ├── utility.cpp                         # Function definitions
+      |  
+      ├── utility_test.cpp                    # Unit tests
 
 ## Usage and Tests
 - The project uses the CMake build system. The build system has been configured in the CMakeLists.txt file.
 - The configuration declares a dependency on GoogleTest which downloads GoogleTest from GitHub and we can use the GoogleTest code within out project.
-- Currently the code only runs via unit tests. YOu can use following commands to build and run the binary.
-- 
+- Currently the code only runs via unit tests. You can use following commands to build and run the binary.
 ```bash
 <project_root>$ cmake -S . -B build -Wno-dev
 --
