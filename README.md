@@ -9,11 +9,15 @@ Contains C++ code to solve ORNL coding challenge questions.
 ## File Structure
 - The project structure is kept simple to accomplish the task within given time frame.
 
-    pawan-sutar-coding-challenge            # Project root
-    ├── CMakeLists.txt                      # Build system configuration
-    ├── utility.h                           # Function declarations
-    ├── utility.cpp                         # Function definitions
-    ├── utility_test.cpp                    # Unit tests
+pawan-sutar-coding-challenge            # Project root
+  
+├── CMakeLists.txt                      # Build system configuration
+|
+├── utility.h                           # Function declarations
+|  
+├── utility.cpp                         # Function definitions
+|  
+├── utility_test.cpp                    # Unit tests
 
 ## Usage and Tests
 - The project uses the CMake build system. The build system has been configured in the CMakeLists.txt file.
