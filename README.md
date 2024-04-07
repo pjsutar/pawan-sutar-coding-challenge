@@ -10,7 +10,7 @@ Contains C++ code to solve ORNL coding challenge questions.
 - The project structure is kept simple to accomplish the task within given time frame.
 
 pawan-sutar-coding-challenge            # Project root
-  
+|
 ├── CMakeLists.txt                      # Build system configuration
 |
 ├── utility.h                           # Function declarations
