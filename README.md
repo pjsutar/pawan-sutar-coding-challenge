@@ -41,6 +41,11 @@ Contains C++ code to solve ORNL coding challenge questions.
 ```bash
 $ sudo apt install build-essential
 ```
+- You can install cmake on Linux by typing:
+```bash
+$ sudo apt install cmake
+```
+- Similarly, for macOS, make sure you have all required tools installed.
 
 ## Other Notes
 - I have completed all test cases mentioned in pdf but could not add some other edge cases in time.
