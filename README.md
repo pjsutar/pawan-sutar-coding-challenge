@@ -47,6 +47,11 @@ $ sudo apt install cmake
 ```
 - Similarly, for macOS, make sure you have all required tools installed.
 
+## Continuous Integration Workflow
+- pawan-sutar-coding-challenge/.github/workflows/cmake-multi-platform.yml
+- This workflow automatically builds and tests the project whenever changes are pushed to the 'main' branch.
+- The aim is to test performance of the code running on different platforms like Windows, Linux and macOS with different compilers like gcc, clang and cl.
+
 ## Other Notes
 - I have completed all test cases mentioned in pdf but could not add some other edge cases in time.
 - I used MSVC build tools (without Visual Studio IDE) to complete the project.
