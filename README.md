@@ -4,7 +4,7 @@ Contains C++ code to solve ORNL coding challenge questions.
 ## Requirements
 - A compatible operating system (Linux, Mac or Windows).
 - A compatible C++ compiler that supports at least C++17.
-- CMake and a compatible build tool like Make or Ninja for building the project.
+- CMake and a compatible build tool like make or Ninja for building the project.
 
 ## File Structure
 - The project structure is kept simple to accomplish the task within given time frame.
@@ -19,7 +19,7 @@ Contains C++ code to solve ORNL coding challenge questions.
       |  
       ├── utility_test.cpp                    # Unit tests
 
-## Usage and Tests
+## Build Instructions and Tests
 - The project uses the CMake build system. The build system has been configured in the CMakeLists.txt file.
 - The configuration declares a dependency on GoogleTest which downloads GoogleTest from GitHub and we can use the GoogleTest code within out project.
 - Currently the code only runs via unit tests. You can use following commands to build and run the binary.
@@ -32,6 +32,14 @@ Contains C++ code to solve ORNL coding challenge questions.
 --
 <project_root>$ cd build && ctest
 
+```
+# Linux Build Instructions
+- The project requires a C++ compiler, CMake and a build utility like make or Ninja.
+- On most Linux distributions, 'make' is preinstalled.
+- Please make sure you have required build tools installed on your Linux machine and use the same build commands.
+- You can simply install the 'build-essential' package by typing the following command. This package comes with all essential tools like gcc, g++ and make.
+```bash
+$ sudo apt install build-essential
 ```
 
 ## Other Notes
